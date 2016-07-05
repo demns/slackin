@@ -9,7 +9,7 @@ describe('slack-invite', () => {
     before(() => {
       opts = {
         channel: 'mychannel',
-        email: 'user@example.com',
+        email: 'user@example.com', // needs to be rewritten
         org: 'myorg',
         token: 'mytoken'
       };
